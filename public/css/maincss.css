@@ -1,0 +1,127 @@
+body {
+  text-align: center;
+  background-color: white;
+  font-family: Helvetica;
+}
+
+button {
+  border-radius: 10px;
+}
+
+button:hover {
+  border: 2px solid white;
+}
+
+.title {
+  color: grey;
+  margin: 50px 0px 30px 0px;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.display_title {
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  width: 200px;
+  margin: auto;
+  padding-right: 260px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.view {
+  margin: auto;
+  padding: 100px 50px 100px 50px;
+  width: 800px;
+  height: 408px;
+  background-image: url("../img/ipad.png");
+  background-size: contain;
+}
+
+#current_temp {
+  width: 300px;
+  height: 95px;
+  margin: auto;
+  padding-top: 35px;
+  font-size: 50px;
+  background-color: white;
+  border-radius: 15px;
+  float: left;
+}
+
+#reset {
+  color: white;
+  background-color: darkgrey;
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 18px;
+  float: right;
+}
+
+
+#power_save_switch {
+  height: 35px;
+  width: 130px;
+  font-size: 18px;
+  float: left;
+}
+
+.main_controller {
+  width: 380px;
+  margin: auto;
+  height: 140px;
+}
+
+.extra_controller {
+  width: 300px;
+  margin: auto;
+  height: 35px;
+  margin-top: 20px;
+  padding-right: 80px;
+}
+
+.temp_control {
+  width: 70px;
+  margin-left: 320px;
+}
+
+.temp_control button {
+  height: 60px;
+  width: 60px;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  background-color: darkgrey;
+}
+
+.temp_control button:hover {
+  height: 60px;
+  width: 60px;
+  color: black;
+  font-size: 30px;
+  -webkit-text-stroke: 1px grey;
+}
+
+.low {
+  color: green;
+}
+
+.medium {
+  color: black;
+}
+
+.high {
+  color: red;
+}
+
+.true {
+  color: green;
+  font-weight: bold;
+  background-color: lightgreen;
+}
+.false {
+  color: grey;
+  background-color: lightgrey;
+}

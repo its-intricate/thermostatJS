@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<header>
+  <link rel="stylesheet" href="./public/css/maincss.css">
+  <title>Home</title>
+</header>
+
+<body>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="./src/thermostat.js"></script>
+  <script src="./interface.js"></script>
+
+  <h1 class="title">THERMOSTAT</h1>
+
+  <div class="view">
+    <h2 class="display_title">Temperature:</h2>
+    <div class="main_controller">
+      <h4 id="current_temp"></h4>
+      <div class="temp_control">
+        <button id="temp_up" type="button" name="temp_up">+</button>
+        <button id="temp_down" type="button" name="temp_down">-</button>
+      </div>
+    </div>
+
+    <div class="extra_controller">
+      <button id="power_save_switch" type="check" name="power_save_switch">Power Save</button>
+      <button id="reset" type="button" name="reset">RESET</button>
+    </div>
+  </div>
+</body>
